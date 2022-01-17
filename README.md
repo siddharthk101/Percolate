@@ -1,4 +1,4 @@
-# Percolate
+# Percolation-System
 This program estimates the value of the percolation threshold in an NxN system via Monte Carlo simulation. It uses DFS, union-find structures, and simulaitons. 
 
 The percorlation threshold answers the question:
