@@ -1,5 +1,8 @@
 # Percolate
 This program estimates the value of the percolation threshold in an NxN system via Monte Carlo simulation. It uses DFS, union-find structures, and simulaitons. 
 
-#The percorlation threshold problem:
+The percorlation threshold answers the question:
+GGiven a porous landscape with water on the surface (or oil below), under what conditions will the water be able to drain through to the bottom (or the oil to gush through to the surface)? Given a composite systems comprised of randomly distributed insulating and metallic materials, what fraction of the materials need to be metallic so that the composite system is an electrical conductor? Scientists have defined an abstract process known as percolation to model such situations.
+
+The percorlation threshold problem:
 The percolation threshold problem is: if sites are independently set to be open with probability p (and therefore blocked with probability 1 − p), what is the probability that the system percolates? In other words, in a N-by-N grid, would the system percolate if N2p randomly chosen cells are opened? When p equals 0, the system does not percolate; when p equals 1, the system percolates. The plots below show the site vacancy probability p versus the percolation probability for 20-by-20 random grid (left) and 100-by-100 random grid (right). When N is sufficiently large, there is a threshold value p* such that when p < p* a random N-by-N grid almost never percolates, and when p > p*, a random N-by-N grid almost always percolates. No mathematical solution for determining the percolation threshold p* has yet been derived. Your task is to write a suite of computer programs to visualize the percolation process and estimate p* using Monte Carlo techniques. As you can see above, the percolation threshold in an NxN grid is about 0.593. The size of the grid doesn't matter as your simulations will show.
